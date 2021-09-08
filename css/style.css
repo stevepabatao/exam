@@ -128,12 +128,19 @@ Tag: advanced custom search, agency, agent, business, clean, corporate, director
 /*== Typography ==*/
 html {
   font-size: 100%; }
-
+@font-face{
+  font-family:'avenir';
+  src:url(../fonts/AvenirLTStd-Black.otf);
+}
+@font-face{
+  font-family:'Slenco';
+  src:url(../fonts/SlencoBlack-d9lyR.woff);
+}
 body {
   background-attachment: fixed;
   background-color: #ffffff;
   color: #777777;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'avenir', 'Slenco';
   font-size: 16px;
   line-height: 1.642;
   overflow-x: hidden;
@@ -225,7 +232,7 @@ iframe {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Slenco';
   line-height: 1.2;
   color: #484848; }
   h1 small,
@@ -352,7 +359,7 @@ address {
 .sign_up_tab li.nav-item .nav-link{
   border: none;
   color: #484848;
-  font-family: 'Nunito', sans-serif;
+  font-family: "avenir";
   font-size: 18px;
   font-weight: bold;
 }
@@ -716,7 +723,7 @@ address {
 .home4_header_top_contact li a,
 ul.sign_up_btn.home4 li a,
 ul.sign_up_btn.home6 a{
-  font-family: 'Nunito', sans-serif;
+  font-family: "avenir";
   font-size: 14px;
   line-height: initial;
 }
@@ -742,7 +749,7 @@ ul.sign_up_btn.home6 a{
 }
 .header_top.home7 .header_top_lang_widget_home6 button.btn.dropdown-toggle{
   font-size: 14px;
-  font-family: "Nunito";
+  font-family: "avenir";
   color: rgba(255, 255, 255, 0.502);
   height: auto;
   line-height: 1.2;
@@ -1334,7 +1341,7 @@ header.header-nav.menu_style_home_five .ace-responsive-menu > li > a,
 header.header-nav.menu_style_home_six .ace-responsive-menu > li > a,
 header.header-nav.menu_style_home_seven .ace-responsive-menu > li > a,
 header.header-nav.menu_style_home_eight .ace-responsive-menu > li > a{
-  font-family: 'Nunito', sans-serif;
+  font-family: "avenir";
   padding: 38px 16px 30px 10px;
 }
 header.header-nav.menu_style_home_one.style2.home10 .ace-responsive-menu > li > a{
@@ -2388,7 +2395,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
 .home5_advanced_search_form .form-group input[type="text"].form-control::-webkit-input-placeholder{
   color: #006c70;
   font-size: 14px;
-  font-family: "Nunito";
+  font-family: "avenir";
   line-height: 1.2;
 }
 .home1-advnc-search.home7{
@@ -2451,7 +2458,7 @@ header.header-nav.menu_style_home_seven .ace-responsive-menu > li.last{
 }
 .home1-advnc-search ul li .search_option_button button{
   border-radius: 8px;
-  background-color: #ff5a5f;
+  background-color: #990100;
   -webkit-box-shadow:0px 1px 4px 0px rgba(255, 90, 95, 0.3);
   -moz-box-shadow:0px 1px 4px 0px rgba(255, 90, 95, 0.3);
   -o-box-shadow:0px 1px 4px 0px rgba(255, 90, 95, 0.3);
@@ -3649,7 +3656,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 .home4_iconbox .icon p{
   font-size: 16px;
-  font-family: "Nunito";
+  font-family: "avenir";
   color: #ffffff;
   line-height: 3;
   margin-bottom: 0;
@@ -4440,7 +4447,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 .feat_property.home8 ul.tag li a,
 .feat_property.list ul.tag li a{
   font-size: 14px;
-  font-family: "Nunito";
+  font-family: "avenir";
   color: #fefefe;
   line-height: 1.2;
 }
@@ -4489,7 +4496,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 .feat_property .thumb .thmb_cntnt a.fp_price{
   bottom: 15px;
   font-size: 22px;
-  font-family: "Nunito";
+  font-family: "avenir";
   color: #ffffff;
   font-weight: bold;
   left: 20px;
@@ -4573,7 +4580,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   border-radius: 3px;
   background-color: rgb(255, 90, 95);
   font-size: 14px;
-  font-family: "Nunito";
+  font-family: "avenir";
   color: rgb(254, 254, 254);
   height: 25px;
   line-height: 1.2;
@@ -4652,13 +4659,13 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 .feat_property .details .tc_content p{
   font-size: 14px;
-  font-family: "Nunito";
+  font-family: "avenir";
   color: #484848;
   line-height: 1.2;
 }
 .feat_property .details .tc_content h4{
   font-size: 18px;
-  font-family: "Nunito";
+  font-family: "Slenco";
   color: #484848;
   font-weight: bold;
   line-height: 1.2;
@@ -4674,7 +4681,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 .feat_property .details .tc_content .prop_details li a{
   font-size: 14px;
-  font-family: "Nunito";
+  font-family: "avenir";
   color: #484848;
   line-height: 1.2;
 }
@@ -4981,7 +4988,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 .for_blog.feat_property .details .tc_content p{
   font-size: 14px;
-  font-family: "Nunito";
+  font-family: "avenir";
   color: #484848;
   line-height: 1.714;
   margin-bottom: 0;
@@ -6091,27 +6098,27 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 .our_hotoffer h2{
   font-size: 30px;
-  font-family: "Nunito";
+  font-family: "Slenco";
   color: #ffffff;
   font-weight: bold;
   line-height: 1.2;
 }
 .our_hotoffer p{
   font-size: 16px;
-  font-family: "Nunito";
+  font-family: "avenir";
   color: #ffffff;
   line-height: 1.2;
   margin-bottom: 25px;
 }
 .our_hotoffer button.btn.ht_offer{
   border-radius: 8px;
-  background-image: -moz-linear-gradient( 148deg, rgb(253,85,89) 0%, rgb(255,51,125) 100%);
-  background-image: -webkit-linear-gradient( 148deg, rgb(253,85,89) 0%, rgb(255,51,125) 100%);
+  background-image: -moz-linear-gradient( 148deg, rgb(  153, 1, 0) 0%, rgb( 185, 5, 4) 100%);
+  background-image: -webkit-linear-gradient( 148deg, rgb( 153, 1, 0) 0%, rgb( 185, 5, 4) 100%);
   background-image: -ms-linear-gradient( 148deg, rgb(253,85,89) 0%, rgb(255,51,125) 100%);
   box-shadow: 0px 0px 50px 0px rgba(19, 19, 28, 0.12);
   color: #ffffff;
   font-size: 16px;
-  font-family: "Nunito";
+  font-family: "avenir";
   font-weight: bold;
   height: 50px;
   line-height: 1.2;
@@ -7009,17 +7016,17 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   padding: 80px 0 70px;
 }
 .footer_one {
-  background-color: #24324a;
+  background-color: #333333;
 }
 .footer_middle_area{
-  background-color: #1d293e;
+  background-color: #202020;
 }
 .footer_bottom_area {
   background-color: #484848;
 }
 .copyright-widget p {
   font-size: 14px;
-  font-family: "Nunito";
+  font-family: "avenir";
   color: #8a99b3;
   line-height: 2.143;
   margin-bottom: 0;
@@ -7075,7 +7082,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 /*== Footer Widget ==*/
 .footer_about_widget p{
   font-size: 14px;
-  font-family: "Nunito";
+  font-family: "avenir";
   color: #8a99b3;
   line-height: 2.143;
   margin-bottom: 0;
@@ -7143,7 +7150,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 .footer_qlink_widget li a,
 .footer_contact_widget li a{
   font-size: 14px;
-  font-family: "Nunito";
+  font-family: "avenir";
   color: #8a99b3;
   line-height: 2.429;
   -webkit-transition: all 0.3s ease 0s;
@@ -14591,7 +14598,7 @@ section {
 }
 .main-title h2 {
   color: #484848;
-  font-family: "Nunito";
+  font-family: "Slenco";
   line-height: 1.2;
   margin-bottom: 10px;
   margin-top: 0;
@@ -14603,7 +14610,7 @@ section {
 }
 .main-title p {
   font-size: 16px;
-  font-family: "Nunito";
+  font-family: "avenir";
   color: rgb(119, 119, 119);
   line-height: 1.2;
   margin-bottom: 0;
